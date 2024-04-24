@@ -1,0 +1,43 @@
+.main{
+    background-color: whitesmoke;
+    margin: 5rem 15rem;
+    text-align: center;
+}
+
+h1{
+    /* background-color: yellow; */
+    background-image: linear-gradient(rgb(119, 116, 116), rgb(246, 246, 167), rgb(64, 77, 64));
+    color: darkblue;
+    padding: 1rem;
+}
+
+.card-holder{
+    padding: 5rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        margin: 2rem 5rem;
+    }
+
+    .card-holder{
+        padding: 2rem 7rem;
+        gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+    .main{
+        margin: 2rem;
+    }
+
+    .card-holder{
+        padding: 1rem 2rem;
+        gap: 1rem;
+    }    
+}

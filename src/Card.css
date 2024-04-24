@@ -1,0 +1,32 @@
+
+.card{
+    width: 9rem;
+    height: 12rem;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.card-color{
+    /* background-color: red; */
+    height:8.4rem;
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+.card-details{
+    background-color: white;
+    /* height: 2.5rem; */
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+
+.hex-code{
+    color: darkgray;
+    font-weight: bolder;
+}
+
+.color-name{
+    font-weight: bold;
+}
